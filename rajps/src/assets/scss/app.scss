@@ -1,11 +1,11 @@
 .main_layout {
-  background-color: #111111;
-  height: 100vh;
+  background-color: #ffc916;
+  height: 100%;
   width: 100%;
   .navbar {
     height: 10vh;
-    background-color: #ffc916;
-    color: #111111;
+    background-color: #111111;
+    color: #ffc916;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -15,7 +15,63 @@
   }
   .content {
     .image {
-      height: 20vh;
+      height: 70vh;
+    }
+    .about {
+      padding: 2rem 0;
+      background-color: #ffc916;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      .about_heading {
+        color: #111111;
+        display: flex;
+        justify-content: center;
+      }
+      .about_content {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 1rem 5rem;
+        .about_us {
+          h4 {
+            color: #111111;
+            padding-top: 20px;
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 30px;
+            span {
+              color: #999;
+              font-size: 1.5rem;
+            }
+          }
+          p {
+            color: #999;
+            line-height: 1.7rem;
+          }
+          .myequipment {
+            color: #111111;
+            font-weight: 700;
+            font-size: 1.5rem;
+            ul {
+              color: #999;
+              font-size: 1rem;
+              line-height: 2rem;
+            }
+          }
+        }
+      }
+    }
+    .service {
+      height: 100vh;
+      background-color: blue;
+    }
+    .work {
+      height: 100vh;
+      background-color: green;
+    }
+    .customerreview {
+      height: 100vh;
+      background-color: yellow;
     }
   }
 }
