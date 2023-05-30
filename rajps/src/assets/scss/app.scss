@@ -82,11 +82,50 @@
     .work {
       height: 100vh;
       background-color: #ffc916;
+      .work_heading {
+        color: #111111;
+        display: flex;
+        justify-content: center;
+      }
+      .work_card {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        grid-column-gap: 2%;
+        grid-row-gap: 2%;
+        justify-content: center;
+      }
+    }
+    .blog {
+      height: 100vh;
+      background-color: #ffc916;
+      .blog_heading {
+        color: #111111;
+        display: flex;
+        justify-content: center;
+      }
     }
     .customerreview {
       height: 100vh;
-      background-color: yellow;
+      background-color: #ffc916;
+      .customer_heading {
+        color: #111111;
+        display: flex;
+        justify-content: center;
+      }
     }
+    .contact {
+      height: 70vh;
+      background-color: #ffc916;
+      .contact_heading {
+        color: #111111;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  .footer {
+    height: 30vh;
+    background-color: #111111;
   }
 }
 .card_container {
