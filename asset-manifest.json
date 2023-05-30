@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/RajKumar_ps/rajps/static/css/main.cd6a67cb.css",
-    "main.js": "/RajKumar_ps/rajps/static/js/main.0df0a282.js",
-    "static/media/wedding.jpeg": "/RajKumar_ps/rajps/static/media/wedding.5fdf706ad4d5e70557c3.jpeg",
-    "static/media/zlabel.jpeg": "/RajKumar_ps/rajps/static/media/zlabel.f2f73e4e8194f38ba6b1.jpeg",
-    "static/media/puberty.jpeg": "/RajKumar_ps/rajps/static/media/puberty.ab786747e9a478a38132.jpeg",
-    "static/media/babyshoot.jpeg": "/RajKumar_ps/rajps/static/media/babyshoot.c8a77b6cd3a34bfee232.jpeg",
-    "static/media/birthdayparty.jpeg": "/RajKumar_ps/rajps/static/media/birthdayparty.c5ffac63d16cac8c6c71.jpeg",
-    "static/media/maternity.jpeg": "/RajKumar_ps/rajps/static/media/maternity.6d2acbd5e201e76df060.jpeg",
-    "index.html": "/RajKumar_ps/rajps/index.html",
-    "main.cd6a67cb.css.map": "/RajKumar_ps/rajps/static/css/main.cd6a67cb.css.map",
-    "main.0df0a282.js.map": "/RajKumar_ps/rajps/static/js/main.0df0a282.js.map"
+    "main.css": "/RajKumar_ps/static/css/main.cd6a67cb.css",
+    "main.js": "/RajKumar_ps/static/js/main.efcc2325.js",
+    "static/media/wedding.jpeg": "/RajKumar_ps/static/media/wedding.5fdf706ad4d5e70557c3.jpeg",
+    "static/media/zlabel.jpeg": "/RajKumar_ps/static/media/zlabel.f2f73e4e8194f38ba6b1.jpeg",
+    "static/media/puberty.jpeg": "/RajKumar_ps/static/media/puberty.ab786747e9a478a38132.jpeg",
+    "static/media/babyshoot.jpeg": "/RajKumar_ps/static/media/babyshoot.c8a77b6cd3a34bfee232.jpeg",
+    "static/media/birthdayparty.jpeg": "/RajKumar_ps/static/media/birthdayparty.c5ffac63d16cac8c6c71.jpeg",
+    "static/media/maternity.jpeg": "/RajKumar_ps/static/media/maternity.6d2acbd5e201e76df060.jpeg",
+    "index.html": "/RajKumar_ps/index.html",
+    "main.cd6a67cb.css.map": "/RajKumar_ps/static/css/main.cd6a67cb.css.map",
+    "main.efcc2325.js.map": "/RajKumar_ps/static/js/main.efcc2325.js.map"
   },
   "entrypoints": [
     "static/css/main.cd6a67cb.css",
-    "static/js/main.0df0a282.js"
+    "static/js/main.efcc2325.js"
   ]
 }
