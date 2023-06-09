@@ -1,4 +1,5 @@
 import React from "react";
+import arrow from "../../assets/Images/chevron-yellow.svg";
 
 function About() {
   return (
@@ -22,33 +23,38 @@ function About() {
           </p>
           <div className="myequipment">
             <h5>My Equipment</h5>
-            <ul>
+            <ul style={{ "list-style-type": "none" }}>
               <li>
-                <i class="far fa-clone"></i>Canon Eos 5D Mark IV 24-105mm
+                <img className="arrowImg" src={arrow} alt="ico" />
+                Canon Eos 5D Mark IV 24-105mm
               </li>
               <li>
-                <i class="far fa-clone"></i>Manfrotto Compact Tripod
+                <img className="arrowImg" src={arrow} alt="ico" />
+                Manfrotto Compact Tripod
               </li>
               <li>
-                <i class="far fa-clone"></i>DJI Ronin MX 3-Axis Gimbal
-                Stabilizer
+                <img className="arrowImg" src={arrow} alt="ico" />
+                DJI Ronin MX 3-Axis Gimbal Stabilizer
               </li>
               <li>
-                <i class="far fa-clone"></i>Canon EF100-400MM Lens
+                <img className="arrowImg" src={arrow} alt="ico" />
+                Canon EF100-400MM Lens
               </li>
               <li>
-                <i class="far fa-clone"></i>Wondlan Wer01 Wireless Slider Time
-                Lapse
+                <img className="arrowImg" src={arrow} alt="ico" />
+                Wondlan Wer01 Wireless Slider Time Lapse
               </li>
               <li>
-                <i class="far fa-clone"></i>Nikon D5 24-70mm F2.8
+                <img className="arrowImg" src={arrow} alt="ico" />
+                Nikon D5 24-70mm F2.8
               </li>
               <li>
-                <i class="far fa-clone"></i>Nikon Af-S 24Mm F/1.4G Ed Lens
+                <img className="arrowImg" src={arrow} alt="ico" />
+                Nikon Af-S 24Mm F/1.4G Ed Lens
               </li>
               <li>
-                <i class="far fa-clone"></i>Wondlan Sniper Sn 2.1 Wf Wireless
-                Dslr Rig
+                <img className="arrowImg" src={arrow} alt="ico" />
+                Wondlan Sniper Sn 2.1 Wf Wireless Dslr Rig
               </li>
             </ul>
           </div>
