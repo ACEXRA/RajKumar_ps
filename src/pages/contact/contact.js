@@ -5,7 +5,7 @@ import phone from "../../assets/Images/phone-solid.svg";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div>
         <h1 className="contact_heading">CONTACT</h1>
       </div>

@@ -13,6 +13,9 @@
     justify-content: space-around;
     .nav_route {
       display: flex;
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
   .content {
@@ -20,9 +23,9 @@
       height: 70vh;
     }
     .about {
-      padding: 2rem 0;
+      padding: 10vh 0 2rem 0;
       background-color: #111111;
-      height: 100vh;
+      height: 85vh;
       display: flex;
       flex-direction: column;
       .about_heading {
@@ -69,7 +72,8 @@
       }
     }
     .service {
-      // height: 100vh;
+      // height: 85vh;
+      padding: 10vh 0 0 0;
       background-color: #111111;
       margin: 2rem 0;
       .service_heading {
@@ -87,7 +91,8 @@
       }
     }
     .work {
-      height: 100vh;
+      padding: 10vh 0 0 0;
+      height: 85vh;
       background-color: #111111;
       .work_heading {
         color: #ffc916;
@@ -104,7 +109,8 @@
       }
     }
     .blog {
-      height: 100vh;
+      padding: 10vh 0 0 0;
+      height: 85vh;
       background-color: #111111;
       .blog_heading {
         color: #ffc916;
@@ -113,7 +119,8 @@
       }
     }
     .customerreview {
-      height: 100vh;
+      padding: 10vh 0 0 0;
+      height: 85vh;
       background-color: #111111;
       .customer_heading {
         color: #ffc916;
@@ -122,9 +129,20 @@
       }
     }
     .contact {
-      height: 100vh;
+      padding: 10vh 0 0 0;
+      height: 85vh;
       background-color: #111111;
       .contact_heading {
+        color: #ffc916;
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .updates {
+      padding: 10vh 0 0 0;
+      height: 85vh;
+      background-color: #111111;
+      .updates_heading {
         color: #ffc916;
         display: flex;
         justify-content: center;
@@ -142,6 +160,9 @@
     .foot_main {
       ul {
         padding: 0;
+        &:hover {
+          cursor: pointer;
+        }
       }
       .arrowImg {
         height: 10px;
@@ -152,6 +173,9 @@
     .foot_contact {
       ul {
         padding: 0;
+        &:hover {
+          cursor: pointer;
+        }
       }
       .arrowImg {
         height: 10px;

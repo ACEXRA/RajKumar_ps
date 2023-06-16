@@ -10,7 +10,7 @@ import Updates from "../../pages/updates/updates";
 const Content = () => {
   return (
     <div className="content">
-      <div className="image">
+      <div className="image" id="home">
         <img src="" alt="temp img" />
       </div>
       <About />

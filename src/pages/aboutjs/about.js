@@ -3,7 +3,7 @@ import arrow from "../../assets/Images/chevron-yellow.svg";
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <h1 className="about_heading">ABOUT US</h1>
       <div className="about_content">
         <div className="about_image">

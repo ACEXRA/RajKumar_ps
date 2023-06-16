@@ -2,7 +2,7 @@ import React from "react";
 
 function Work() {
   return (
-    <div className="work">
+    <div className="work" id="work">
       <h1 className="work_heading">MY WORKS</h1>
       <div className="work_card">
         <img src="" alt="img" />

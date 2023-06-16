@@ -9,7 +9,7 @@ import Label from "../../assets/Images/zlabel.jpeg";
 
 function Service() {
   return (
-    <div className="service">
+    <div className="service" id="service">
       <h1 className="service_heading">SERVICES AND PRICES </h1>
       <div className="card">
         <Card name={"Wedding Shoot"} image={WeddingImg} />

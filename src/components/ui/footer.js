@@ -4,6 +4,12 @@ import location from "../../assets/Images/location-dot-solid.svg";
 import phone from "../../assets/Images/phone-solid.svg";
 import email from "../../assets/Images/envelope-solid.svg";
 const Footer = () => {
+  const handleClickScroll = (props) => {
+    const element = document.getElementById(props);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className="footer">
       <div className="foot_about">
@@ -17,32 +23,60 @@ const Footer = () => {
       <div className="foot_main">
         <h4>Main Menu</h4>
         <div>
-          <ul>
+          <ul
+            onClick={() => {
+              handleClickScroll("home");
+            }}
+          >
             <img className="arrowImg" src={chevron} alt="ico" />
             Home
           </ul>
-          <ul>
+          <ul
+            onClick={() => {
+              handleClickScroll("about");
+            }}
+          >
             <img className="arrowImg" src={chevron} alt="ico" />
             About
           </ul>
-          <ul>
+          <ul
+            onClick={() => {
+              handleClickScroll("service");
+            }}
+          >
             <img className="arrowImg" src={chevron} alt="ico" />
             Services
           </ul>
-          <ul>
+          <ul
+            onClick={() => {
+              handleClickScroll("work");
+            }}
+          >
             <img className="arrowImg" src={chevron} alt="ico" />
             Work
           </ul>
           {/* <ul>Blog</ul> */}
-          <ul>
+          <ul
+            onClick={() => {
+              handleClickScroll("customerreview");
+            }}
+          >
             <img className="arrowImg" src={chevron} alt="ico" />
             Happy Clients
           </ul>
-          <ul>
+          <ul
+            onClick={() => {
+              handleClickScroll("updates");
+            }}
+          >
             <img className="arrowImg" src={chevron} alt="ico" />
             Updates
           </ul>
-          <ul>
+          <ul
+            onClick={() => {
+              handleClickScroll("contact");
+            }}
+          >
             <img className="arrowImg" src={chevron} alt="ico" />
             Contact
           </ul>
