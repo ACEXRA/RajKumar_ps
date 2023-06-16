@@ -14,9 +14,9 @@ function Service() {
       <div className="card">
         <Card name={"Wedding Shoot"} image={WeddingImg} />
         <Card name={"Birthday Party Shoot"} image={BirthdayImg} />
-        <Card name={"Maternity shoot"} image={BabyshootImg} />
-        <Card name={"Puberty Shoot"} image={MaternityImg} />
-        <Card name={"Baby Shower and Baby Shoot"} image={PubertyImg} />
+        <Card name={"Baby Shower and Baby Shoot"} image={BabyshootImg} />
+        <Card name={"Maternity shoot"} image={MaternityImg} />
+        <Card name={"Puberty Shoot"} image={PubertyImg} />
         <Card name={"Label"} image={Label} />
       </div>
     </div>
