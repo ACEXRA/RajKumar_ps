@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RajKumar_ps/static/css/main.a8ca640c.css",
-    "main.js": "/RajKumar_ps/static/js/main.f8e1c8e1.js",
+    "main.css": "/RajKumar_ps/static/css/main.5ea5d038.css",
+    "main.js": "/RajKumar_ps/static/js/main.1e17d922.js",
     "static/media/wedding.jpeg": "/RajKumar_ps/static/media/wedding.5fdf706ad4d5e70557c3.jpeg",
     "static/media/zlabel.jpeg": "/RajKumar_ps/static/media/zlabel.f2f73e4e8194f38ba6b1.jpeg",
     "static/media/puberty.jpeg": "/RajKumar_ps/static/media/puberty.ab786747e9a478a38132.jpeg",
@@ -14,11 +14,11 @@
     "static/media/chevron-yellow.svg": "/RajKumar_ps/static/media/chevron-yellow.ceb3a47ad7c1413ab2019af7fe1f1b7d.svg",
     "static/media/chevron-right-solid (1).svg": "/RajKumar_ps/static/media/chevron-right-solid (1).2db3027901dcfeea0ac1af37c0fa2470.svg",
     "static/media/location-dot-solid.svg": "/RajKumar_ps/static/media/location-dot-solid.2e0ef750ef3975644482ba424ba65ae0.svg",
-    "main.a8ca640c.css.map": "/RajKumar_ps/static/css/main.a8ca640c.css.map",
-    "main.f8e1c8e1.js.map": "/RajKumar_ps/static/js/main.f8e1c8e1.js.map"
+    "main.5ea5d038.css.map": "/RajKumar_ps/static/css/main.5ea5d038.css.map",
+    "main.1e17d922.js.map": "/RajKumar_ps/static/js/main.1e17d922.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8ca640c.css",
-    "static/js/main.f8e1c8e1.js"
+    "static/css/main.5ea5d038.css",
+    "static/js/main.1e17d922.js"
   ]
 }
