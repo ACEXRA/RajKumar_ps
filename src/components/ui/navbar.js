@@ -13,6 +13,7 @@ const Navbar = () => {
         <ul>Work</ul>
         {/* <ul>Blog</ul> */}
         <ul>Happy Clients</ul>
+        <ul>Updates</ul>
         <ul>Contact</ul>
       </div>
     </div>

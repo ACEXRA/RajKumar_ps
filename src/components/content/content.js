@@ -5,6 +5,7 @@ import Work from "../../pages/work/work";
 import Blog from "../../pages/blog/blog";
 import Customerreview from "../../pages/customerreview/customerreview";
 import Contact from "../../pages/contact/contact";
+import Updates from "../../pages/updates/updates";
 
 const Content = () => {
   return (
@@ -17,6 +18,7 @@ const Content = () => {
       <Work />
       {/* <Blog /> */}
       <Customerreview />
+      <Updates />
       <Contact />
     </div>
   );

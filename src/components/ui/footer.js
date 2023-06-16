@@ -40,6 +40,10 @@ const Footer = () => {
           </ul>
           <ul>
             <img className="arrowImg" src={chevron} alt="ico" />
+            Updates
+          </ul>
+          <ul>
+            <img className="arrowImg" src={chevron} alt="ico" />
             Contact
           </ul>
         </div>
